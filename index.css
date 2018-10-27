@@ -1,0 +1,14 @@
+
+.center{
+    text-align: center;
+    font-size: 60px;
+    font-family: "Bad Script", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    color: darkblue;
+}
+
+.p-center{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Bad Script", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    color: darkgreen;
+}
