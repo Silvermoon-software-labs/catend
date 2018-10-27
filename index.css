@@ -12,3 +12,7 @@
     font-family: "Bad Script", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
     color: darkgreen;
 }
+
+.container{
+    max-width: 520px !important;
+}
