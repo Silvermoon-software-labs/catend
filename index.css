@@ -20,7 +20,6 @@
 input::-webkit-input-placeholder {
     font-family: "Bad Script", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
     font-size: 18px;
-
 }
     
 input:-moz-placeholder { /* Firefox 18- */
