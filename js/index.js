@@ -21,7 +21,7 @@ $(document).ready(function() {
     });
     $('#books').on('click', function() {
         $('#filetype').text('Books');
-        $('#inputBox').attr('placeholder', 'Start typing... ( eg. : 2 States )');
+        $('#inputBox').attr('placeholder', 'Start typing... ( eg. : Revolution 2020 )');
     });
     $('#images').on('click', function() {
         $('#filetype').text('Images');

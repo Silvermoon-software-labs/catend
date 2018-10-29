@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Catend</title>
+        <title>Catend | www.catend.com</title>
         <link rel="stylesheet" href="index.css"/>
         <link href='https://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
         <meta charset="utf-8">
@@ -9,7 +9,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     </head>
     <body>
         <div class="card alert alert-primary">
@@ -32,29 +32,64 @@
                                     type="button" data-toggle="dropdown" aria-haspopup="true" 
                                     aria-expanded="false" style="min-width: 200px;">Select File Type</button>
                             <div class="dropdown-menu" style="width:200px;">
-                                <a class="dropdown-item" id="softwares" href="#">Softwares</a>
-                                <a class="dropdown-item" id="games" href="#">PC / Mobile Games</a>
-                                <a class="dropdown-item" id="series" href="#">TV Series</a>
-                                <a class="dropdown-item" id="movies" href="#">Movies</a>
-                                <a class="dropdown-item" id="videos" href="#">Videos</a>
-                                <a class="dropdown-item" id="books" href="#">Books</a>
-                                <a class="dropdown-item" id="images" href="#">Images</a>
-                                <a class="dropdown-item" id="songs" href="#">Songs</a>
+                                <a class="dropdown-item" id="softwares" href="#">
+                                    <i class="fa fa-windows fa-spin" aria-hidden="true"></i>
+                                    Softwares
+                                </a>
+                                <a class="dropdown-item" id="games" href="#">
+                                    <i class="fa fa-gamepad fa-spin" aria-hidden="true"></i>
+                                    PC / Mobile Games
+                                </a>
+                                <a class="dropdown-item" id="series" href="#">
+                                    <i class="fa fa-tv fa-spin" aria-hidden="true"></i>
+                                    TV Series
+                                </a>
+                                <a class="dropdown-item" id="movies" href="#">
+                                    <i class="fa fa-film fa-spin" aria-hidden="true"></i>
+                                    Movies
+                                </a>
+                                <a class="dropdown-item" id="videos" href="#">
+                                    <i class="fa fa-youtube fa-spin" aria-hidden="true"></i>
+                                    Videos
+                                </a>
+                                <a class="dropdown-item" id="books" href="#">
+                                    <i class="fa fa-book fa-spin" aria-hidden="true"></i>
+                                    Books
+                                </a>
+                                <a class="dropdown-item" id="images" href="#">
+                                    <i class="fa fa-camera-retro fa-spin" aria-hidden="true"></i>
+                                    Images
+                                </a>
+                                <a class="dropdown-item" id="songs" href="#">
+                                    <i class="fa fa-music fa-spin" aria-hidden="true"></i>
+                                    Songs
+                                </a>
                                 <div role="separator" class="dropdown-divider"></div>
-                                <a class="dropdown-item" id="others" href="#">Others</a>
+                                <a class="dropdown-item" id="others" href="#">
+                                    <i class="fa fa-gear fa-spin" aria-hidden="true"></i>
+                                    Others
+                                </a>
                             </div>
                         </div>
-                        <input type="text" class="form-control" id="inputBox" placeholder="<--- Select your file type">
+                        <input type="text" class="form-control" id="inputBox" placeholder="<--- Select your file type" onkeydown="if (event.keyCode == 13 || event.which == 13) { location='http://www.google.com/search?q=' + encodeURIComponent(document.getElementById('inputBox').value); + 'ujjwalsb'}">
                     </div>
-                    <a href="#" class="btn btn-success">Start Searching</a>
+                    <a class="btn btn-success" onclick="this.href='http://www.google.com/search?q=' + encodeURIComponent(document.getElementById('inputBox').value); + 'ujjwalsb'">Start Searching</a>
                 </div>
                 <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fcatend.com&layout=button_count&size=large&mobile_iframe=true&width=84&height=28&appId" 
                         width="84" height="28" style="border:none;overflow:hidden" scrolling="no" 
                         frameborder="0" allowTransparency="true" allow="encrypted-media">
                 </iframe>
-            </div><br/>
+            </div><br/><br/><br/><br/><br/><br/><br/><br/><br/>
             <div class="card-footer text-muted">
-              Please support by donating us <a href="https://www.paypal.me/ujjwalsb">here</a>.
+              
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="3278RCQV3GNQN">
+                <p>Please support by donating us here.</p>
+                <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_paynow_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+                </form>
+                
             </div>
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
