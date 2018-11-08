@@ -17,6 +17,10 @@
     max-width: 600px !important;
 }
 
+.card-container{
+    margin: 15px;
+}
+
 .dropdown-menu{
     width: 200px;
 }
