@@ -25,6 +25,10 @@
     width: 200px;
 }
 
+.card-footer{
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
 input::-webkit-input-placeholder {
     font-family: "Bad Script", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
     font-size: 18px;
