@@ -102,11 +102,13 @@ function codeLatLng(lat, lng) {
       document.getElementById("demo").innerHTML = loc1;
     //   document.getElementById("demo").innerHTML = loc2;
 
-      } //else {
-    //     alert("No results found");
-    //   }
-    } //else {
-    //   alert("Geocoder failed due to: " + status);
-    // }
+      } else {
+        no_res = "No results found";
+        document.getElementById("demo").innerHTML = no_res;
+      }
+    } else {
+      fail = "Geocoder failed due to: " + status;
+      document.getElementById("demo").innerHTML = fail;
+    }
   });
 }
