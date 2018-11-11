@@ -102,16 +102,16 @@
                                     aria-expanded="false" style="min-width: 200px;"><b>Select File Type</b>
                                 </button>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#"><i class="fa fa-windows fa-spin" aria-hidden="true"></i> Softwares</a></li>
-                                    <li><a class="dropdown-item" href="#"><i class="fa fa-gamepad fa-spin" aria-hidden="true"></i> PC / Mobile Games</a></li>
-                                    <li><a class="dropdown-item" href="#"><i class="fa fa-tv fa-spin" aria-hidden="true"></i> TV Series</a></li>
-                                    <li><a class="dropdown-item" href="#"><i class="fa fa-film fa-spin" aria-hidden="true"></i> Movies</a></li>
-                                    <li><a class="dropdown-item" href="#"><i class="fa fa-youtube fa-spin" aria-hidden="true"></i> Videos</a></li>
-                                    <li><a class="dropdown-item" href="#"><i class="fa fa-book fa-spin" aria-hidden="true"></i> Books</a></li>
-                                    <li><a class="dropdown-item" href="#"><i class="fa fa-camera-retro fa-spin" aria-hidden="true"></i> Images</a></li>
-                                    <li><a class="dropdown-item" href="#"><i class="fa fa-music fa-spin" aria-hidden="true"></i> Songs / Music</a></li>
-                                    <div role="separator" class="dropdown-divider"></div>
-                                    <li><a class="dropdown-item" href="#"><i class="fa fa-asterisk fa-spin" aria-hidden="true"></i> Other</a></li>
+                                        <li><a class="dropdown-item" href="#" onclick="setFiletype('exe|iso|tar|rar|zip|apk', 'Softwares', 'windows')"><i class="fa fa-windows fa-spin" aria-hidden="true"></i> Softwares</a></li>
+                                        <li><a class="dropdown-item" href="#" onclick="setFiletype('exe|iso|tar|rar|zip|apk', 'Games', 'gamepad')"><i class="fa fa-gamepad fa-spin" aria-hidden="true"></i> PC / Mobile Games</a></li>
+                                        <li><a class="dropdown-item" href="#" onclick="setFiletype('mkv|mp4|avi|mov|mpg|wmv', 'TV Series', 'tv')"><i class="fa fa-tv fa-spin" aria-hidden="true"></i> TV Series</a></li>
+                                        <li><a class="dropdown-item" href="#" onclick="setFiletype('mkv|mp4|avi|mov|mpg|wmv', 'Movies', 'film')"><i class="fa fa-film fa-spin" aria-hidden="true"></i> Movies</a></li>
+                                        <li><a class="dropdown-item" href="#" onclick="setFiletype('mkv|mp4|avi|mov|mpg|wmv', 'Videos', 'youtube')"><i class="fa fa-youtube fa-spin" aria-hidden="true"></i> Videos</a></li>
+                                        <li><a class="dropdown-item" href="#" onclick="setFiletype('MOBI|CBZ|CBR|CBC|CHM|EPUB|FB2|LIT|LRF|ODT|PDF|PRC|PDB|PML|RB|RTF|TCR|DOC|DOCX', 'Books', 'book')"><i class="fa fa-book fa-spin" aria-hidden="true"></i> Books</a></li>
+                                        <li><a class="dropdown-item" href="#" onclick="setFiletype('jpg|png|bmp|gif|tif|tiff|psd', 'Images', 'camera-retro')"><i class="fa fa-camera-retro fa-spin" aria-hidden="true"></i> Images</a></li>
+                                        <li><a class="dropdown-item" href="#" onclick="setFiletype('mp3|wav|ac3|ogg|flac|wma|m4a', 'Music', 'music')"><i class="fa fa-music fa-spin" aria-hidden="true"></i> Songs / Music</a></li>
+                                        <div role="separator" class="dropdown-divider"></div>
+                                        <li><a class="dropdown-item" href="#" onclick="setFiletype('-1', 'Other', 'asterisk')"><i class="fa fa-asterisk fa-spin" aria-hidden="true"></i> Other</a></li>
                                 </ul>
                             </div>
                             <input type="text" name="file" value="" id="query" class="form-control" placeholder="<--- Select your file type">
