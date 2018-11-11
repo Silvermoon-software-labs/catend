@@ -29,22 +29,22 @@
     border-bottom: 1px solid rgba(0,0,0,.125);
 }
 
-input::-webkit-input-placeholder {
+/* input::-webkit-input-placeholder {
     font-family: "Bad Script", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
     font-size: 18px;
 }
     
-input:-moz-placeholder { /* Firefox 18- */
+input:-moz-placeholder { 
     font-family: "Bad Script", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !important; 
 }
     
-input::-moz-placeholder {  /* Firefox 19+ */
+input::-moz-placeholder { 
     font-family: "Bad Script", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
     
 input:-ms-input-placeholder {  
     font-family: "Bad Script", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-}
+} */
 
 .catfiles_zooming-1, .catfiles_zooming-2, .catfiles_zooming-3
 {
